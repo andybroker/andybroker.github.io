@@ -4,13 +4,43 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/07/13/%E7%BE%8E%E8%82%A1%E6%8A%95%E8%B5%841/</loc>
+    <lastmod>2016-07-14T08:21:33.516Z</lastmod>
+    <data>
+        <display>
+        <title>《明心宝鉴》省心篇</title>
+        <pubTime>2016-07-13T07:48:13.322Z</pubTime>
+        
+        <tag>明心宝鉴</tag>
+         
+        <tag>省心篇</tag>
+         
+         
+           
+             
+              <breadCrumb title="test" url="http://yoursite.com/categories/test/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2016/07/14/%E7%BE%8E%E8%82%A1%E6%8A%95%E8%B5%842/</loc>
-    <lastmod>2016-07-14T03:58:16.389Z</lastmod>
+    <lastmod>2016-07-14T08:16:05.248Z</lastmod>
     <data>
         <display>
         <title>自己制作的老虎证券名片</title>
         <pubTime>2016-07-14T02:57:19.672Z</pubTime>
         
+        <tag>美股开户</tag>
+         
+        <tag>美股投资</tag>
+         
+        <tag>老虎证券</tag>
+         
+        <tag>第一证券</tag>
+         
          
            
              
@@ -22,13 +52,21 @@
 
     
   <url>
-    <loc>http://yoursite.com/2016/07/13/%E7%BE%8E%E8%82%A1%E6%8A%95%E8%B5%841/</loc>
-    <lastmod>2016-07-14T03:57:45.180Z</lastmod>
+    <loc>http://yoursite.com/2016/07/12/hello-world/</loc>
+    <lastmod>2016-07-14T08:14:30.976Z</lastmod>
     <data>
         <display>
-        <title>《明心宝鉴》省心篇</title>
-        <pubTime>2016-07-13T07:48:13.322Z</pubTime>
+        <title>我的第一篇博客-致谢</title>
+        <pubTime>2016-07-12T07:14:43.913Z</pubTime>
         
+        <tag>致谢</tag>
+         
+        <tag>开源</tag>
+         
+        <tag>Geek</tag>
+         
+        <tag>静态博客</tag>
+         
          
            
              
@@ -39,21 +77,6 @@
     </url>
 
     
-  <url>
-    <loc>http://yoursite.com/2016/07/12/hello-world/</loc>
-    <lastmod>2016-07-14T03:50:57.488Z</lastmod>
-    <data>
-        <display>
-        <title>我的第一篇博客-致谢</title>
-        <pubTime>2016-07-12T07:14:43.913Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="test" url="http://yoursite.com/categories/test/"/>
-          
-        </display>
-    </data>
-    </url>
-
+    
+    
 </urlset>
