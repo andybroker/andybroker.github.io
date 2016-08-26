@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>美股开户</title>
+  <subtitle>手机&amp;微信：15088063906</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-08-24T08:05:54.832Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Andy Law</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ROA ROE ROIC ROCE之间的区别与使用</title>
+    <link href="http://yoursite.com/2016/08/24/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B74/"/>
+    <id>http://yoursite.com/2016/08/24/美股开户4/</id>
+    <published>2016-08-24T07:40:15.827Z</published>
+    <updated>2016-08-24T08:05:54.832Z</updated>
+    
+    <content type="html"><![CDATA[<p>投资分析经常用到各种回报率，常用的有资产回报率（ROA），净资产回报率（ROE），投入资本回报率（ROIC），使用资本回报率（ROCE）。</p>
+<p>在这几个回报率中，除了ROA和ROE的定义比较明确外，其他的两个有各种不同的定义，只能选取一种通用的定义。<br><img src="http://7xwch3.com1.z0.glb.clouddn.com/20160824.jpg" alt=""></p>
+<a id="more"></a>
+<p><strong>资产回报率(ROA)</strong><br>资产回报率是净利润比上总资产，也就是所有负债加股东权益。这个回报率衡量的是资产的回报率。但是一个公司资产负债表上的资产价值更多的是反映了历史而不是当前，而且不同的行业的ROA具有不可比性。最简单的例子，很多类金融企业有无息流动负债，增加了总资产，降低了ROA，但是无偿使用上下游资金实际上是公司有竞争力的体现。</p>
+<p><strong>净资产回报率(ROE)</strong><br>净资产回报率ROE是净利润比上股东权益，也称作股本回报率。ROE对股东来说意义最大，是股票复利增长的源泉。ROE可以在不同行业与不同企业之间横向比较。相当于股票这种“股权债券”的收益率。对投资人来说无论是投资铁路还是互联网，都相当于是买了“股权债券”。在同等风险情况下，当然是收益率越高越好。而且，ROE还可以与政府债券、企业债券的收益率跨资产类别横向比较。<br>ROE的问题在于无法反映债务杠杆对净利润的影响。如果一个企业借更多的债，一般就能产生更多净利润，ROE也会提高。但是这样的提高是以牺牲企业经营稳健程度为代价的。因此，分析ROE一定要结合杜邦公式，并与同行业进行比较。</p>
+<p><strong>投入资本回报率(ROIC)</strong><br>投入资本回报率是EBIT（税及利息前盈利）经过税率调整比上投入的资本，也就是股东权益加负债减去非运营现金和投资。之所以用EBIT就是因为利息是由债务产生的，是对债权的回报，当计算债权加股权的总的投入资本的回报率时应该把利息加回来。</p>
+<p>投入资本也可以表示为净运营资金（流动运营资产减去无息流动负债）加固定资产，加无形资产及商誉，加其他运营资产。<br>ROIC的问题在于没有考虑无息流动负债的影响。ROIC实际上是衡量投入的总资本的使用效率，与平均资金成本WACC相结合可以揭示一个企业的真正效率。ROIC &lt; WACC 是卖空大师<strong>Jim Chanos</strong>经常用来寻找卖空对象的一个重要指标。<br>但是，ROIC对于类金融企业的分析不太容易。一些类金融企业如国美、苏宁、联想、格力等，占用了大量上下游资金作为无息流动负债，因此提高了EBIT。但是，和有息负债一样，无息负债也存在风险。虽然不用付利息，但是一旦经营形式改变，这些资金很有可能像“热钱”一样撤走。国美在黄光裕被捕后就陷入了这样的危险境地，只要供应商撤资，国美就会破产。这些企业虽然ROIC很高，但是静态不稳定，动态稳定。</p>
+<p><strong>使用资本回报率(ROCE)</strong><br>使用资本回报率是<strong>EBIT</strong>（税及利息前盈利）比上使用的资本，也就是所有有息负债加上股东权益。这个指标与ROIC相近，但是使用的是EBIT而没有经过税率调整，因此可以用来比较不同税率的企业。ROCE也容易忽视公司无息负债的融资效应。</p>
+<p>这几种经常使用的回报率各有优缺点，应该结合使用，并且根据历史数据判断趋势进行分析。</p>
+<p><strong>更多信息请登录<a href="http://andybroker.com" target="_blank" rel="external">www.andybroker.com</a></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;投资分析经常用到各种回报率，常用的有资产回报率（ROA），净资产回报率（ROE），投入资本回报率（ROIC），使用资本回报率（ROCE）。&lt;/p&gt;
+&lt;p&gt;在这几个回报率中，除了ROA和ROE的定义比较明确外，其他的两个有各种不同的定义，只能选取一种通用的定义。&lt;br&gt;&lt;img src=&quot;http://7xwch3.com1.z0.glb.clouddn.com/20160824.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="价值投资" scheme="http://yoursite.com/categories/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"/>
+    
+    
+      <category term="美股开户" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B7/"/>
+    
+      <category term="美股开户流程" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B7%E6%B5%81%E7%A8%8B/"/>
+    
+      <category term="ROCE" scheme="http://yoursite.com/tags/ROCE/"/>
+    
+      <category term="ROA" scheme="http://yoursite.com/tags/ROA/"/>
+    
+      <category term="ROE" scheme="http://yoursite.com/tags/ROE/"/>
+    
+      <category term="价值投资" scheme="http://yoursite.com/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"/>
+    
+      <category term="ROIC" scheme="http://yoursite.com/tags/ROIC/"/>
+    
+      <category term="净资产回报率" scheme="http://yoursite.com/tags/%E5%87%80%E8%B5%84%E4%BA%A7%E5%9B%9E%E6%8A%A5%E7%8E%87/"/>
+    
+      <category term="总资产报酬率" scheme="http://yoursite.com/tags/%E6%80%BB%E8%B5%84%E4%BA%A7%E6%8A%A5%E9%85%AC%E7%8E%87/"/>
+    
+      <category term="投入资本回报率" scheme="http://yoursite.com/tags/%E6%8A%95%E5%85%A5%E8%B5%84%E6%9C%AC%E5%9B%9E%E6%8A%A5%E7%8E%87/"/>
+    
+      <category term="使用资本回报率" scheme="http://yoursite.com/tags/%E4%BD%BF%E7%94%A8%E8%B5%84%E6%9C%AC%E5%9B%9E%E6%8A%A5%E7%8E%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>上市公司退市后持有的股票怎么办？如何操作？</title>
+    <link href="http://yoursite.com/2016/08/02/%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E9%80%80%E5%B8%82%E5%90%8E%E8%82%A1%E7%A5%A8%E5%A6%82%E4%BD%95%E4%BA%A4%E6%98%93/"/>
+    <id>http://yoursite.com/2016/08/02/上市公司退市后股票如何交易/</id>
+    <published>2016-08-02T12:46:22.502Z</published>
+    <updated>2016-08-02T12:52:31.750Z</updated>
+    
+    <content type="html"><![CDATA[<p>上市公司退市后持有的股票怎么办？持有的股票退市以后应该怎么办？如何操作？<br>　　股票退市了也是可以交易的，以上交所为例，根据上交所规定，正式终止上市之后，有30个交易日的退市整理期供投资者交易，期间涨跌幅为10%。退市整理期结束后，上市公司转入其他场外交易市场进行交易。<br><a id="more"></a><br>　　退市后转入场外交易详细说明<br>　　交易所对暂停上市的公司作出终止上市的决定后，根据有关规定，退市公司原在交易所流通的股份将由一家具备代办股份转让业务资格的证券公司（主办券商）代办转让，并在45个工作日之内。<br>　　根据规定，退市公司股东必须先开立股份转让账户（个人股东开户费30元，机构股东开户费100元），并办理股份确权与转托管手续（个人股东确权手续费10元，机构股东确权手续费30元）。个人股东开立股份转让账户时应携带身份证。<br>　　退市公司在代办股份转让系统挂牌之前，股东应尽快办理股份确权与转托管手续，否则有可能无法赶上在该公司第一个交易日进行交易。退市公司挂牌之后，股东可以继续办理股份确权与转托管手续，但其股份需要经过两个交易日之后方可转让（即三板交易）。<br>　　综上所述，上市公司在被暂停上市后，即停止在A股市场交易。股民避免损失最好的办法就是在暂停上市前，即股票仍在交易时，卖出该股票，进行适当止损。<br>　　代办股份转让股份的交易规则<br>　　投资者可从股票简称最后的一个字符上识别股份转让的次数。股票简称最后的一个字符为阿拉伯数字“5”，表示每周一、二、三、四、五各转让一次，每周转让五次的股票；股票简称最后的一个字符为阿拉伯数字“3”，表示每周一、三、五各转让一次，每周转让三次的股票；仅于每周星期五转让一次的股票，股票简称最后的一个字符为阿拉伯数字“1”。<br>　　转让时间：股份转让日委托申报时间为上午9：30至11：30，下午1：00至3：00。<br>　　竞价方式：在股份转让日下午3：00以集合竞价的方式配对撮合成交。<br>　　交易单位：股份转让以“手”为单位，每“手”等于100股。<br>　　申报规则：申报买入股份，数量应当为一手的整数倍。不足一手的股份，可一次性申报卖出。<br>　　报价单位：A类股份每股价格，最小委托买卖单位为人民币0.01元；B类股份每股价格，最小委托买卖单位为0.001美元。<br>　　涨跌幅限制：涨跌幅限制为前一交易日转让价格的5％。</p>
+<p><strong>更多信息请登录<a href="http://andybroker.com" target="_blank" rel="external">www.andybroker.com</a></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;上市公司退市后持有的股票怎么办？持有的股票退市以后应该怎么办？如何操作？&lt;br&gt;　　股票退市了也是可以交易的，以上交所为例，根据上交所规定，正式终止上市之后，有30个交易日的退市整理期供投资者交易，期间涨跌幅为10%。退市整理期结束后，上市公司转入其他场外交易市场进行交易。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="股票" scheme="http://yoursite.com/categories/%E8%82%A1%E7%A5%A8/"/>
+    
+    
+      <category term="退市" scheme="http://yoursite.com/tags/%E9%80%80%E5%B8%82/"/>
+    
+      <category term="退市交易" scheme="http://yoursite.com/tags/%E9%80%80%E5%B8%82%E4%BA%A4%E6%98%93/"/>
+    
+      <category term="代办股份转让系统" scheme="http://yoursite.com/tags/%E4%BB%A3%E5%8A%9E%E8%82%A1%E4%BB%BD%E8%BD%AC%E8%AE%A9%E7%B3%BB%E7%BB%9F/"/>
+    
+      <category term="三板交易" scheme="http://yoursite.com/tags/%E4%B8%89%E6%9D%BF%E4%BA%A4%E6%98%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一证券美股开户流程</title>
+    <link href="http://yoursite.com/2016/07/19/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B73/"/>
+    <id>http://yoursite.com/2016/07/19/美股开户3/</id>
+    <published>2016-07-19T09:47:56.033Z</published>
+    <updated>2016-07-19T10:26:11.732Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Firstrade第一证券是美股领先的网络券商，为投资者提供全面丰富的投资理财产品和服务。公司总部位于全球金融中心美国纽约，是美国金融业监管局(FINRA)、美国证券投资者保护公司(SIPC)的资深会员。自1985年创立以来，Firstrade始终致力于帮助全球投资者达到理财目标，为不同程度、不同需求的投资者提供专有的交易技术、直观易用的手机端及PC端交易平台、以及卓越的客户服务。随着公司的不断扩展壮大，Firstrade的主要业务已经遍布美国50个州，服务对象遍及全球各族群。</strong></p>
+<p><strong>Firstrade创始人及首席执行官：美籍华人企业家刘锦杭先生</strong></p>
+<a id="more"></a>
+<p>开户链接：<a href="https://invest.firstrade.com/apply/zh-cn/" target="_blank" rel="external">https://invest.firstrade.com/apply/zh-cn/</a></p>
+<p>官方网站：<a href="https://invest.firstrade.com/" target="_blank" rel="external">https://invest.firstrade.com/</a></p>
+<p>开户前请发送开户邮箱至923594885@qq.com,稍后会收到开户优惠邀请码，开户成功后有<strong>$50奖励</strong><br>第一证券每笔交易收取固定佣金6.95美元，不管交易数量是多少，所收取的佣金都一样，所以适合交易量大或者买入后长线持有的投资者，如果您经验丰富，交易活跃可以考虑在老虎证券开户，美股佣金$0.01/股（USD）港股佣金0.08%（HKD），<a href="http://andybroker.com/2016/07/15/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B7/" target="_blank" rel="external">老虎证券开户流程</a><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/0.png" alt=""></p>
+<p><strong>第一步：填写个人姓名及开户邮箱，姓名用英文填写，例：</strong><br><strong>顾客姓名：王大同</strong><br><strong>姓 Surname:Wang</strong><br><strong>名 Given names:Datong</strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/2.png" alt=""></p>
+<p><strong>第二步：选择账户类型，我们开户一般都是个人账户，如果您是与他人一起投资可选择共同账户</strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/3.png" alt=""><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/4.png" alt=""></p>
+<p><strong>账户类型有两个,一个是现金账户，一个为融资账户，现金账户权限较少，满足资金量较小或者刚刚涉足美股的客户；融资账户权限较多，除现金账户可以买卖的股票、ETF、共同基金以外还可以交易所有种类期权，融资买入或者融券卖出，但要求开户后最少入金2000美元，关于现金账户跟融资账户的区别详情参见：<a href="http://andybroker.com/2016/07/19/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B72/" target="_blank" rel="external">美股中现金账户与融资账户区别</a></strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/5.png" alt=""><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/6.png" alt=""></p>
+<p><strong>下面是选择何种资金存放账户，任选其一。一个是美国联邦存款保险公司FDIC的存款保险账户，属于政府主导，但是没有利息；另一个是SPIC（美国证券投资者保护公司）账户保险，存放资金可获得利息</strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/7.png" alt=""><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/8.png" alt=""></p>
+<p><strong>第三步：选择完账户类型以后，进入客户资料填写阶段，图中有详细指引，在这里需要强调的是居住地址要跟身份证上面地址相同，且要用英文填写，大家可以在这个网站:<a href="http://www.9181.cn/" target="_blank" rel="external">太阳风名址翻译</a>将中文地址翻译为英文地址，填表的日期格式为（月/日/年）</strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/9.png" alt=""><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/10.png" alt=""><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/11.png" alt=""><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/12.png" alt=""><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/13.png" alt=""><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/14.png" alt=""></p>
+<p><strong>第四步：投资简况，四个选项都勾选上，尤其是“投机”这项，如果日后想要交易期权必须勾选该项。家庭成员是否为上市公司高管、家庭成员是否为交易所雇员、家庭成员是否在政府部门任职这几个选项都选“否”</strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/15.png" alt=""><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/16.png" alt=""></p>
+<p><strong>第五步：确认资料与合约，这一步核对无误后就可以进行下一步</strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/17.png" alt=""><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/18.png" alt=""><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/19.png" alt=""></p>
+<p><strong>第六步：设置登陆账号（用户登入代号）及密码，用以登陆交易软件及第一证券网站，下面可有一个4位数的数字口令及密保问题，设置完毕就可以开通美股账户了</strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/20.png" alt=""></p>
+<p><strong>第七步：到这一步我们已经拥有了8位数的证券账号，但是此时因为没有上传账户文件，所以账户交易是受到限制的，要登陆网站-客户服务-表格中心，上传我们的开户身份证正反面照片、电子交易服务合约书、简易W-8BEN表格，电子交易服务合约书和简易W-8BEN需要打印签字后上传扫描件，这个时候签名是用汉字的，签字日期格式为（月/日/年）可以联系手机&amp;微信15088063906帮你通过PS搞定签名问题。资料上传完毕后2-3个工作日就可以开通美股账户交易权限，入金后就可以交易了</strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/21.png" alt=""><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/22.png" alt=""><br><strong>电子交易服务合约书</strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/firstrade%E7%94%B5%E5%AD%90%E4%BA%A4%E6%98%93%E6%9C%8D%E5%8A%A1%E5%90%88%E7%BA%A6%E4%B9%A6.jpg" alt=""><br><strong>简易W-8BEN表格</strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/firstrade-W-8BEN.jpg" alt=""></p>
+<p><strong>更多信息请登录<a href="http://andybroker.com" target="_blank" rel="external">www.andybroker.com</a></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;Firstrade第一证券是美股领先的网络券商，为投资者提供全面丰富的投资理财产品和服务。公司总部位于全球金融中心美国纽约，是美国金融业监管局(FINRA)、美国证券投资者保护公司(SIPC)的资深会员。自1985年创立以来，Firstrade始终致力于帮助全球投资者达到理财目标，为不同程度、不同需求的投资者提供专有的交易技术、直观易用的手机端及PC端交易平台、以及卓越的客户服务。随着公司的不断扩展壮大，Firstrade的主要业务已经遍布美国50个州，服务对象遍及全球各族群。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Firstrade创始人及首席执行官：美籍华人企业家刘锦杭先生&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="美股开户" scheme="http://yoursite.com/categories/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B7/"/>
+    
+    
+      <category term="美股开户" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B7/"/>
+    
+      <category term="美股投资" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1%E6%8A%95%E8%B5%84/"/>
+    
+      <category term="老虎证券" scheme="http://yoursite.com/tags/%E8%80%81%E8%99%8E%E8%AF%81%E5%88%B8/"/>
+    
+      <category term="第一证券" scheme="http://yoursite.com/tags/%E7%AC%AC%E4%B8%80%E8%AF%81%E5%88%B8/"/>
+    
+      <category term="开户流程" scheme="http://yoursite.com/tags/%E5%BC%80%E6%88%B7%E6%B5%81%E7%A8%8B/"/>
+    
+      <category term="美股开户流程" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B7%E6%B5%81%E7%A8%8B/"/>
+    
+      <category term="美股" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1/"/>
+    
+      <category term="Firstrade" scheme="http://yoursite.com/tags/Firstrade/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>美股中的现金帐户与融资帐户区别</title>
+    <link href="http://yoursite.com/2016/07/19/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B72/"/>
+    <id>http://yoursite.com/2016/07/19/美股开户2/</id>
+    <published>2016-07-19T09:30:51.289Z</published>
+    <updated>2016-07-19T09:37:36.285Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>现金帐户</strong><br>投资者可以申请及透过现金帐户交易股票，ETFs，共同基金等等。但是, 在现金帐户中交易的股票资金需要三个交易日来完成交割。交割一词代表证券被正式转移至买方的帐户，且资金正式进入卖方的帐户。期权交易只需要一个交易日来完成。当使用现金帐户，投资者需要按照现金帐户规则来完成交易。如果使用未完全交割资金，投资者有可能会收到Good Faith Violation违规操作的警告和90天的帐户限制。使用融资帐户可以帮助您避免类似的警告和限制。</p>
+<a id="more"></a>
+<p><strong>融资帐户</strong><br>融资帐户可以让您从第一证券借款购买股票。您帐户中的证券与资产将被视为抵押品。当帐户价值下降导致无法维持最低融资保证金维持比率规定，帐户持有人则必须存入更多资金，更多可融资证券或平仓部分持股。<br>只要您没有从第一证券借款或超于您的现金购买力，您的帐户是不会被收取任何利息和费用，所以您也可以在融资帐户使用自己的现金来交易。融资帐户让您可以使用未完全交割资金来交易，而且可以避免在现金帐户发生的交割日违规。<br>某些交易活动只能在融资帐户中进行，例如卖空、当日冲销交易或是高级期榷策略。融资购买的最显著优势为利用杠杆效益来提升投资报酬。当您手中持股的股价往您所乐见的方向移动，融资购买将使您获利更多。</p>
+<p>申请融资帐户投资:</p>
+<ul>
+<li>步骤 1: 请彻底了解使用融资所带来的风险与益处。</li>
+<li>步骤 2: 请确保您的帐户中有$2,000(融资帐户最低存款要求)以上资产。</li>
+<li>步骤 3: 完成融资帐户申请表，并以邮寄，传真或电子信箱方式送回第一证券。</li>
+<li>步骤 4: 当您的融资帐户完成核准并开通，您便可以开始享有融资借款所带来的优势与弹性。</li>
+</ul>
+<p><strong>现金帐户交易规则</strong><br>在现金帐户中交易的资金需要三个交易日来完成交割，并且允许再次用以交易。交割一词代表证券被正式转移至买方的帐户，且资金正式进入卖方的帐户，通常需时三个交易日。因此，若您在周一下单交易一证券，这笔交易将在周四完成交割。</p>
+<p><strong>Good Faith Violation 违规操作</strong><br>当投资者以尚未完成交割之资金买入一证券，并在该资金尚未完交割前又将该证券卖出，则会造成违规操作Good Faith Violation。每个帐户可以被允许在连续12个月内发生最多3次的Good Faith Violation违规操作。当帐户发生第四次Good Faith Violation违规操作时，帐户将会面临90天限制。每一次的Good Faith Violation都会在从犯规日开始计算的12个月后失效。</p>
+<p><strong>90天限制</strong><br>当帐户面临90天限制时，将不能再通过网路下买单。该投资者在这90天中必须经由第一证券的股票经纪人协助下买单，以避免再次不慎使用未交割资金。以下为可能面临90天限制的一些常见状况：</p>
+<ul>
+<li>当帐户在12个月内第四次触犯Good Faith Violation违规操作。</li>
+<li>当投资者使用未交割资金在现金帐户中进行当日冲销交易。见范例</li>
+<li>当投资者将未在交割日前完全付清的证券卖出。见范例</li>
+</ul>
+<p><strong>Good Faith Violation 违规操作范例</strong></p>
+<p>范例1：<br>小明帐户中持有100股XYZ股票，周一小明将这100股XYZ股票以2000美元的价格卖出了。周二，小明使用了卖出XYZ股票得来资金中的1000美元买进了UVW股票，周三小明将周二买进的UVW股票卖出了。由于此项操作小明收到了一封关于“GFV违规操作”的通知邮件。<br>在这个例子中，小明使用了周一卖出XYZ股票的未交割完成资金，买进并且提前卖出了刚买进的股票UVW，因此造成了违规操作。小明周一卖出股票的资金，需要三个工作日完成交割。也就是说周一卖出的股票，资金会在周四交割完成。如果小明将刚买进的UVW股票在周四卖出，就不会造成违规。</p>
+<p>范例2：<br>小明帐户中持有100股XYZ股票，周一小明将这100股XYZ股票以2000美元的价格卖出了。在周一到周三期间，小明没有进行任何交易操作，在周四小明使用了周一卖出XYZ股票得来的2000美元买进了股票UVW，并在周五将UVW卖出了。<br>在这个例子中，小明的操作不会造成违规。原因是，小明周一卖出的股票，资金需要三个工作日进行交割，卖出XYZ股票的2000美元会在周四交割完成，周四小明使用交割完成的资金买进的UVW股票，可以随时卖出，不会造成违规。<br>范例3：现金帐户余额（已交割完毕资金）<br>小明的帐户刚刚汇入了10000美元的资金，在周一小明使用了这10000美元买进XYZ股票，周二小明将XYZ股票卖出了。<br>在这个例子中，小明使用了汇入的交割完成的资金买进了股票XYZ，小明可以将XYZ股票随时卖出，都不会造成违规。</p>
+<p><strong>90 天限制范例</strong></p>
+<p>范例1：当投资者在现金帐户里进行当日冲销交易后再次于当日进行交易<br>星期一，Nick的帐户有余额$1,000。他在同一天买进并卖出了价值$1,000的股票ABC。星期一稍晚，Nick发现股票ABC的股价下跌，因此使用了稍早卖出ABC的未交割完成款项再次买进价值$1,000ABC。90天限制产生。</p>
+<p>范例2：当投资者将未在交割日前完全付清的证券卖出。<br>Jake的帐户中有$1,000现金，他在星期一下了一个市价买单买进股票ABC。在他下单时股价忽然飙升，导致该买单以一个高于预期的价格成交。Jake最终买进了价值$1,300的股票ABC，这些股票由于帐户中现金不足，并没有被完全付清。由于现金帐户无法融资，Jake必须要在5个工作日内存入$300以上现金。若是Jake没有在5个工作日内存入足够现金前就将股票卖出，他的帐户将会面临90天限制。</p>
+<p><strong>更多信息请登录<a href="http://andybroker.com" target="_blank" rel="external">www.andybroker.com</a></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;现金帐户&lt;/strong&gt;&lt;br&gt;投资者可以申请及透过现金帐户交易股票，ETFs，共同基金等等。但是, 在现金帐户中交易的股票资金需要三个交易日来完成交割。交割一词代表证券被正式转移至买方的帐户，且资金正式进入卖方的帐户。期权交易只需要一个交易日来完成。当使用现金帐户，投资者需要按照现金帐户规则来完成交易。如果使用未完全交割资金，投资者有可能会收到Good Faith Violation违规操作的警告和90天的帐户限制。使用融资帐户可以帮助您避免类似的警告和限制。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="美股开户" scheme="http://yoursite.com/categories/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B7/"/>
+    
+    
+      <category term="美股开户" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B7/"/>
+    
+      <category term="美股投资" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1%E6%8A%95%E8%B5%84/"/>
+    
+      <category term="第一证券" scheme="http://yoursite.com/tags/%E7%AC%AC%E4%B8%80%E8%AF%81%E5%88%B8/"/>
+    
+      <category term="融资账户" scheme="http://yoursite.com/tags/%E8%9E%8D%E8%B5%84%E8%B4%A6%E6%88%B7/"/>
+    
+      <category term="现金账户" scheme="http://yoursite.com/tags/%E7%8E%B0%E9%87%91%E8%B4%A6%E6%88%B7/"/>
+    
+      <category term="美股" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1/"/>
+    
+      <category term="现金账户交易规则" scheme="http://yoursite.com/tags/%E7%8E%B0%E9%87%91%E8%B4%A6%E6%88%B7%E4%BA%A4%E6%98%93%E8%A7%84%E5%88%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>美股开户流程</title>
+    <link href="http://yoursite.com/2016/07/15/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B7/"/>
+    <id>http://yoursite.com/2016/07/15/美股开户/</id>
+    <published>2016-07-15T07:58:21.610Z</published>
+    <updated>2016-07-15T08:55:23.668Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>老虎证券是知名美股券商。目前，老虎证券已获得小米科技、真格基金、险峰长青、景林投资等知名投资机构的投资。</strong></p>
+<p><strong>开户链接：(开户优惠码：TIGER773，字母大写)</strong><br><a href="https://www.tigerbrokers.com/accounts?invite=TIGER773" target="_blank" rel="external">https://www.tigerbrokers.com/accounts?invite=TIGER773</a></p>
+<p><strong>或者扫面下方二维码：</strong></p>
+<a id="more"></a>
+<p><img src="http://7xwch3.com1.z0.glb.clouddn.com/cli_1000px.png" alt=""></p>
+<p><strong>开户完成后客服人员会审核客户提交的资料，时间1-2个工作日，期间会有客服人员电话回访客户，请保持电话畅通，有任何问题请联系手机&amp;微信：15088063906</strong></p>
+<p><strong>第一步：打开开户链接，填写开户手机号码，收到验证码后设置个人密码</strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/1.jpg" alt=""></p>
+<p><strong>第二步:填写个人资料，规管信息两项都选否</strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/2.jpg" alt=""></p>
+<p><img src="http://7xwch3.com1.z0.glb.clouddn.com/3.jpg" alt=""></p>
+<p><strong>第三步：净收入等资产类信息可随意填写，建议写高一些，提高风险验证通过率，期权交易年数一定要填，否则无法进行下一步，下面的债券、期货、个股期货交易权限建议开通。</strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/4.jpg" alt=""></p>
+<p><img src="http://7xwch3.com1.z0.glb.clouddn.com/5.jpg" alt=""></p>
+<p><img src="http://7xwch3.com1.z0.glb.clouddn.com/6.jpg" alt=""></p>
+<p><strong>第四步：勾选客户开户协议，后面的W-8BEN表格是非美人员都要填写的，部分内容系统已经根据客户身份证信息进行默认填写（W-8BEN-E由非美机构填写）。</strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/7.jpg" alt=""></p>
+<p><img src="http://7xwch3.com1.z0.glb.clouddn.com/8.jpg" alt=""></p>
+<p><img src="http://7xwch3.com1.z0.glb.clouddn.com/9.jpg" alt=""></p>
+<p><img src="http://7xwch3.com1.z0.glb.clouddn.com/10.jpg" alt=""></p>
+<p><img src="http://7xwch3.com1.z0.glb.clouddn.com/11.jpg" alt=""></p>
+<p><strong>第五步：上传开户者本人身份证正反面照片及签名，可将身份证放在白纸上面，在身份证下方签名并一起拍照后上传；反面也一样。点击完成后证券开户就已经完成，客服审核完毕后就可以进行入金操作，以激活资金账户，首次入金至少3000美元。</strong><br><img src="http://7xwch3.com1.z0.glb.clouddn.com/12.jpg" alt=""></p>
+<p><img src="http://7xwch3.com1.z0.glb.clouddn.com/13.jpg" alt=""><br><strong>更多信息请登录<a href="http://andybroker.com" target="_blank" rel="external">www.andybroker.com</a></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;老虎证券是知名美股券商。目前，老虎证券已获得小米科技、真格基金、险峰长青、景林投资等知名投资机构的投资。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;开户链接：(开户优惠码：TIGER773，字母大写)&lt;/strong&gt;&lt;br&gt;&lt;a href=&quot;https://www.tigerbrokers.com/accounts?invite=TIGER773&quot;&gt;https://www.tigerbrokers.com/accounts?invite=TIGER773&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;或者扫面下方二维码：&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="美股开户" scheme="http://yoursite.com/categories/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B7/"/>
+    
+    
+      <category term="美股开户" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B7/"/>
+    
+      <category term="美股投资" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1%E6%8A%95%E8%B5%84/"/>
+    
+      <category term="老虎证券" scheme="http://yoursite.com/tags/%E8%80%81%E8%99%8E%E8%AF%81%E5%88%B8/"/>
+    
+      <category term="第一证券" scheme="http://yoursite.com/tags/%E7%AC%AC%E4%B8%80%E8%AF%81%E5%88%B8/"/>
+    
+      <category term="开户流程" scheme="http://yoursite.com/tags/%E5%BC%80%E6%88%B7%E6%B5%81%E7%A8%8B/"/>
+    
+      <category term="美股开户流程" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B7%E6%B5%81%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自己制作的老虎证券名片</title>
+    <link href="http://yoursite.com/2016/07/14/%E7%BE%8E%E8%82%A1%E6%8A%95%E8%B5%842/"/>
+    <id>http://yoursite.com/2016/07/14/美股投资2/</id>
+    <published>2016-07-14T02:57:19.672Z</published>
+    <updated>2016-08-23T15:01:55.996Z</updated>
+    
+    <content type="html"><![CDATA[<p>折腾了差不多六个小时，总算把名片设计出来了，show一下：<br>正面：<br><img src="http://7xwch3.com1.z0.glb.clouddn.com/%E8%80%81%E8%99%8E%E8%AF%81%E5%88%B8%E5%90%8D%E7%89%87%E6%AD%A3%E9%9D%A2160823.jpg" alt=""><br><a id="more"></a></p>
+<p>反面：<br><img src="http://7xwch3.com1.z0.glb.clouddn.com/%E8%80%81%E8%99%8E%E8%AF%81%E5%88%B8%E5%90%8D%E7%89%87%E5%8F%8D%E9%9D%A2160823.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;折腾了差不多六个小时，总算把名片设计出来了，show一下：&lt;br&gt;正面：&lt;br&gt;&lt;img src=&quot;http://7xwch3.com1.z0.glb.clouddn.com/%E8%80%81%E8%99%8E%E8%AF%81%E5%88%B8%E5%90%8D%E7%89%87%E6%AD%A3%E9%9D%A2160823.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="show" scheme="http://yoursite.com/categories/show/"/>
+    
+    
+      <category term="美股开户" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B7/"/>
+    
+      <category term="美股投资" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1%E6%8A%95%E8%B5%84/"/>
+    
+      <category term="老虎证券" scheme="http://yoursite.com/tags/%E8%80%81%E8%99%8E%E8%AF%81%E5%88%B8/"/>
+    
+      <category term="第一证券" scheme="http://yoursite.com/tags/%E7%AC%AC%E4%B8%80%E8%AF%81%E5%88%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《明心宝鉴》省心篇</title>
+    <link href="http://yoursite.com/2016/07/13/%E7%BE%8E%E8%82%A1%E6%8A%95%E8%B5%841/"/>
+    <id>http://yoursite.com/2016/07/13/美股投资1/</id>
+    <published>2016-07-13T07:48:13.322Z</published>
+    <updated>2016-07-14T08:21:33.516Z</updated>
+    
+    <content type="html"><![CDATA[<p>吴真人曰：“行短亏心只是贫，莫生巧计弄精神。得便宜处休欢喜，远在儿孙近在身。”<br>十分惺惺使五分，留取五分与儿孙。十分惺惺都使尽，后代儿孙不如人。<br>越奸越狡越贫穷，奸狡原来天不容。富贵若从奸狡得，世间呆汉吸西风。<br>花落花开开又落，锦衣布衣更换着。豪家未必长富贵，贫家未必常寂寞。扶人未必上青霄，推人未必填沟壑。劝君凡事莫怨天，天意于人无厚薄。<br><a id="more"></a><br>莫入州卫与县衙，劝君勤谨作生涯。池塘积水须防旱，田地勤耕足养家。教子教孙多教艺，栽桑栽柘少栽花。闲是闲非休要管，渴饮清泉闷煮茶。<br>堪叹人心毒似蛇，谁知天眼转如车。去年妄取东邻物，今日还归北舍家。无义钱财汤泼雪，倘来田地水推沙。若将狡谲为生计，恰似朝开暮落花。<br>得失荣枯总是天，机关用尽也徒然。人心不足蛇吞象，世事到头螳捕蝉。无药可医卿相寿，有钱难买子孙贤。家常守分随缘过，便是逍遥自在仙。<br>宽性宽怀过几年，人死人生在眼前。随高随下随缘过，或长或短莫埋怨。自有自无休叹息，家贫家富总由天。平生衣食随缘度，一日清闲一日仙。<br>花开不择贫家地，月照山河到处明。世间只有人心恶，凡事还须天养人。</p>
+<p>真宗皇帝御制：“知危识险，终无罗网之门。举善荐贤，自有安身之路。施恩布德，乃世代之荣昌。怀妬报冤，与子孙之为患。损人利己，终无显达之云程。害众成家，岂有长久富贵。改名异体，皆因巧语而生。祸起伤身，尽是不仁之召。”</p>
+<p>仁宗皇帝御制：“乾坤宏大，日月照鉴，分明宇宙，宽洪天地，不容奸党。使心用，果报只在今生。善布浅求，获福休言后世。千般巧计，不如本分为人；万种强图，争似随缘节俭。心行慈善，何须努力看经；意欲损人，空读如来一藏。”</p>
+<p>神宗皇帝御制：“远非道之财，戒过度之酒。居必择邻，交必择友。嫉妬勿起于心，谗言勿宣于口。骨肉贫者莫疏，他人富者莫厚。克己以勤俭为先，爱众以谦和为首。常思已往之非，每念未来之咎。若依朕之斯言，治家国而可久。”</p>
+<p>高宗皇帝御制：“一星之火，能烧万顷之薪。半句非言，折尽平生之德。身披一缕，常思织女之劳。日食三餐，每念农夫之苦。苟贪嫉妬，终无十载安康。积善存仁，必有荣华后裔。福缘善庆，多因积德而生。入圣超凡，尽是真实而得。”</p>
+<p>注释：<br>嫉妬：同“嫉妒”；柘：古同“蔗”，甘蔗。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;吴真人曰：“行短亏心只是贫，莫生巧计弄精神。得便宜处休欢喜，远在儿孙近在身。”&lt;br&gt;十分惺惺使五分，留取五分与儿孙。十分惺惺都使尽，后代儿孙不如人。&lt;br&gt;越奸越狡越贫穷，奸狡原来天不容。富贵若从奸狡得，世间呆汉吸西风。&lt;br&gt;花落花开开又落，锦衣布衣更换着。豪家未必长富贵，贫家未必常寂寞。扶人未必上青霄，推人未必填沟壑。劝君凡事莫怨天，天意于人无厚薄。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="test" scheme="http://yoursite.com/categories/test/"/>
+    
+    
+      <category term="明心宝鉴" scheme="http://yoursite.com/tags/%E6%98%8E%E5%BF%83%E5%AE%9D%E9%89%B4/"/>
+    
+      <category term="省心篇" scheme="http://yoursite.com/tags/%E7%9C%81%E5%BF%83%E7%AF%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇博客-致谢</title>
+    <link href="http://yoursite.com/2016/07/12/hello-world/"/>
+    <id>http://yoursite.com/2016/07/12/hello-world/</id>
+    <published>2016-07-12T07:14:43.913Z</published>
+    <updated>2016-07-14T08:14:30.976Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天算是完成了博客搭建的大部分内容，包括Git、Node.js、hexo等工具的安装，从7月9日注册Github到今天发布成功已经5天时间过去了，我对编程一窍不通，辛亏网上有网友整理的搭建教程，根据网上各位网友编写的教程学习搭建博客，虽然一路走来一路坑，但最终我还是掌握了搭建的基本知识。<br><a id="more"></a><br>博客的诞生多亏了各位Geek的无私分享，所以第一篇文章献给你们，感谢你们的努力，Geek让世界更美好。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天算是完成了博客搭建的大部分内容，包括Git、Node.js、hexo等工具的安装，从7月9日注册Github到今天发布成功已经5天时间过去了，我对编程一窍不通，辛亏网上有网友整理的搭建教程，根据网上各位网友编写的教程学习搭建博客，虽然一路走来一路坑，但最终我还是掌握了搭建的基本知识。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="test" scheme="http://yoursite.com/categories/test/"/>
+    
+    
+      <category term="致谢" scheme="http://yoursite.com/tags/%E8%87%B4%E8%B0%A2/"/>
+    
+      <category term="开源" scheme="http://yoursite.com/tags/%E5%BC%80%E6%BA%90/"/>
+    
+      <category term="Geek" scheme="http://yoursite.com/tags/Geek/"/>
+    
+      <category term="静态博客" scheme="http://yoursite.com/tags/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
