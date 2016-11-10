@@ -372,9 +372,9 @@
     
       <category term="美股开户" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B7/"/>
     
-      <category term="股票回购" scheme="http://yoursite.com/tags/%E8%82%A1%E7%A5%A8%E5%9B%9E%E8%B4%AD/"/>
-    
       <category term="价值投资" scheme="http://yoursite.com/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"/>
+    
+      <category term="股票回购" scheme="http://yoursite.com/tags/%E8%82%A1%E7%A5%A8%E5%9B%9E%E8%B4%AD/"/>
     
   </entry>
   
@@ -455,13 +455,13 @@
     
       <category term="美股开户流程" scheme="http://yoursite.com/tags/%E7%BE%8E%E8%82%A1%E5%BC%80%E6%88%B7%E6%B5%81%E7%A8%8B/"/>
     
-      <category term="价值投资" scheme="http://yoursite.com/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"/>
-    
       <category term="ROCE" scheme="http://yoursite.com/tags/ROCE/"/>
     
       <category term="ROA" scheme="http://yoursite.com/tags/ROA/"/>
     
       <category term="ROE" scheme="http://yoursite.com/tags/ROE/"/>
+    
+      <category term="价值投资" scheme="http://yoursite.com/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"/>
     
       <category term="ROIC" scheme="http://yoursite.com/tags/ROIC/"/>
     
