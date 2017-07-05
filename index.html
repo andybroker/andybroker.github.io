@@ -5,16 +5,25 @@
   
 
 
-<html class="theme-next mist use-motion">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
 
 
 
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
 
 
 
@@ -63,9 +72,9 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
   <meta name="keywords" content="美股开户" />
@@ -74,10 +83,12 @@
 
 
 
+  <link rel="alternate" href="/atom.xml" title="美股开户" type="application/atom+xml" />
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
 
 
 
@@ -96,31 +107,40 @@
 
 
 
-<script type="text/javascript" id="hexo.configuration">
+<script type="text/javascript" id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
+    root: '/',
     scheme: 'Mist',
-    sidebar: {"position":"left","display":"post"},
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
     duoshuo: {
-      userId: 0,
+      userId: '0',
       author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
   };
 </script>
 
 
 
-
   <link rel="canonical" href="http://yoursite.com/"/>
 
-  <title> 美股开户 </title>
-</head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
+
+
+  <title>美股开户</title>
   
+
+
 
 
 
@@ -128,7 +148,7 @@
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?5e061d29552742889d5708da5386b8da";
+      hm.src = "https://hm.baidu.com/hm.js?5e061d29552742889d5708da5386b8da";
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
@@ -141,36 +161,46 @@
 
 
 
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
   
   
     
   
 
-  <div class="container one-collumn sidebar-position-left 
+  <div class="container sidebar-position-left 
    page-home 
  ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
-  
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
 
-  <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">美股开户</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">美股开户</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">手机&微信：15088063906</p>
+      
   </div>
-  <p class="site-subtitle">手机&微信：15088063906</p>
-</div>
 
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
 </div>
 
 <nav class="site-nav">
@@ -191,7 +221,7 @@
       
         
         <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
+          <a href="/categories/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
@@ -201,7 +231,7 @@
       
         
         <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
+          <a href="/about/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
@@ -211,7 +241,7 @@
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
+          <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
@@ -221,7 +251,7 @@
       
         
         <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
+          <a href="/tags/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
@@ -267,6 +297,8 @@
   
 </nav>
 
+
+
  </div>
     </header>
 
@@ -280,13 +312,23 @@
       
 
   
-  
 
   
   
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/05/为什么拥有高智商的人还要犯罪？/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Andy Law">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7xwch3.com1.z0.glb.clouddn.com/Andy%20Law.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="美股开户">
+    </span>
 
     
       <header class="post-header">
@@ -294,38 +336,42 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/07/05/为什么拥有高智商的人还要犯罪？/" itemprop="url">
-                  为什么拥有高智商的人还要犯罪？
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/07/05/为什么拥有高智商的人还要犯罪？/" itemprop="url">为什么拥有高智商的人还要犯罪？</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-07-05T14:57:42+08:00" content="2017-07-05">
-              2017-07-05
-            </time>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-05T14:57:42+08:00">
+                2017-07-05
+              </time>
+            
+
+            
+
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/Quora精选/" itemprop="url" rel="index">
                     <span itemprop="name">Quora精选</span>
                   </a>
@@ -333,7 +379,6 @@
 
                 
                 
-
               
             </span>
           
@@ -341,33 +386,29 @@
           
             
               <span class="post-comments-count">
-                &nbsp; | &nbsp;
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
                 <a href="/2017/07/05/为什么拥有高智商的人还要犯罪？/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/07/05/为什么拥有高智商的人还要犯罪？/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/07/05/为什么拥有高智商的人还要犯罪？/" itemprop="commentCount"></span>
                 </a>
               </span>
             
           
 
           
-
-          
-          
-             <span id="/2017/07/05/为什么拥有高智商的人还要犯罪？/" class="leancloud_visitors" data-flag-title="为什么拥有高智商的人还要犯罪？">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
           
 
           
+
+          
+
+          
+
         </div>
       </header>
     
-
 
     <div class="post-body" itemprop="articleBody">
 
@@ -378,12 +419,18 @@
         
           <p>翻译：Andybroker</p>
 <p><img src="http://7xwch3.com1.z0.glb.clouddn.com/2017-07-05-01.jpg" alt=""><br>这是位于巴西福塔莱萨长76米的隧道，尽管这并不仅仅是一条隧道。它还是一条逃生路径，一个可以通往里约东北部最大银行的入口。<br>
-          <div class="post-more-link text-center">
+          <!--noindex-->
+          <div class="post-button text-center">
             <a class="btn" href="/2017/07/05/为什么拥有高智商的人还要犯罪？/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
+          <!--/noindex-->
         
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -401,6 +448,8 @@
       
 
       
+
+      
       
         <div class="post-eof"></div>
       
@@ -412,13 +461,23 @@
       
 
   
-  
 
   
   
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/09/如何培养孩子的阅读兴趣？/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Andy Law">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7xwch3.com1.z0.glb.clouddn.com/Andy%20Law.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="美股开户">
+    </span>
 
     
       <header class="post-header">
@@ -426,38 +485,42 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/04/09/如何培养孩子的阅读兴趣？/" itemprop="url">
-                  如何培养孩子的阅读兴趣？
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/04/09/如何培养孩子的阅读兴趣？/" itemprop="url">如何培养孩子的阅读兴趣？</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-04-09T16:11:16+08:00" content="2017-04-09">
-              2017-04-09
-            </time>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-09T16:11:16+08:00">
+                2017-04-09
+              </time>
+            
+
+            
+
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/Quora精选/" itemprop="url" rel="index">
                     <span itemprop="name">Quora精选</span>
                   </a>
@@ -465,7 +528,6 @@
 
                 
                 
-
               
             </span>
           
@@ -473,33 +535,29 @@
           
             
               <span class="post-comments-count">
-                &nbsp; | &nbsp;
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
                 <a href="/2017/04/09/如何培养孩子的阅读兴趣？/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/04/09/如何培养孩子的阅读兴趣？/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/04/09/如何培养孩子的阅读兴趣？/" itemprop="commentCount"></span>
                 </a>
               </span>
             
           
 
           
-
-          
-          
-             <span id="/2017/04/09/如何培养孩子的阅读兴趣？/" class="leancloud_visitors" data-flag-title="如何培养孩子的阅读兴趣？">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
           
 
           
+
+          
+
+          
+
         </div>
       </header>
     
-
 
     <div class="post-body" itemprop="articleBody">
 
@@ -510,12 +568,18 @@
         
           <p>翻译：Andybroker</p>
 <p><img src="http://7xwch3.com1.z0.glb.clouddn.com/20170409-0.jpg" alt=""><br>8岁的时候我根本不喜欢读书。父亲是一位极富洞察力的老师（白天是大学老师，晚上是8岁孩子的幼儿教师）他是这样解决这个问题的：<br>
-          <div class="post-more-link text-center">
+          <!--noindex-->
+          <div class="post-button text-center">
             <a class="btn" href="/2017/04/09/如何培养孩子的阅读兴趣？/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
+          <!--/noindex-->
         
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -533,6 +597,8 @@
       
 
       
+
+      
       
         <div class="post-eof"></div>
       
@@ -544,13 +610,23 @@
       
 
   
-  
 
   
   
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/04/俄罗斯为何如此危险？/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Andy Law">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7xwch3.com1.z0.glb.clouddn.com/Andy%20Law.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="美股开户">
+    </span>
 
     
       <header class="post-header">
@@ -558,38 +634,42 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/04/04/俄罗斯为何如此危险？/" itemprop="url">
-                  俄罗斯为什么如此危险？
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/04/04/俄罗斯为何如此危险？/" itemprop="url">俄罗斯为什么如此危险？</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-04-04T15:05:58+08:00" content="2017-04-04">
-              2017-04-04
-            </time>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-04T15:05:58+08:00">
+                2017-04-04
+              </time>
+            
+
+            
+
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/Quora精选/" itemprop="url" rel="index">
                     <span itemprop="name">Quora精选</span>
                   </a>
@@ -597,7 +677,6 @@
 
                 
                 
-
               
             </span>
           
@@ -605,33 +684,29 @@
           
             
               <span class="post-comments-count">
-                &nbsp; | &nbsp;
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
                 <a href="/2017/04/04/俄罗斯为何如此危险？/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/04/04/俄罗斯为何如此危险？/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/04/04/俄罗斯为何如此危险？/" itemprop="commentCount"></span>
                 </a>
               </span>
             
           
 
           
-
-          
-          
-             <span id="/2017/04/04/俄罗斯为何如此危险？/" class="leancloud_visitors" data-flag-title="俄罗斯为什么如此危险？">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
           
 
           
+
+          
+
+          
+
         </div>
       </header>
     
-
 
     <div class="post-body" itemprop="articleBody">
 
@@ -643,12 +718,18 @@
           <p>翻译：Andybroker</p>
 <p>考虑如下几方面：</p>
 <p>俄罗斯的国土面积比冥王星还要大。如果西伯利亚脱离俄罗斯单独成立一个国家的话，那它将是世界国土面积第三的国家。俄罗斯从东到西连绵10000公里，差不多是月球直径的3倍，火星直径的1.5倍，仅仅比地球直径少2000公里。<br>
-          <div class="post-more-link text-center">
+          <!--noindex-->
+          <div class="post-button text-center">
             <a class="btn" href="/2017/04/04/俄罗斯为何如此危险？/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
+          <!--/noindex-->
         
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -666,6 +747,8 @@
       
 
       
+
+      
       
         <div class="post-eof"></div>
       
@@ -677,13 +760,23 @@
       
 
   
-  
 
   
   
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/03/如果你认为父母的婚姻并不幸福，你会做些什么？/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Andy Law">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7xwch3.com1.z0.glb.clouddn.com/Andy%20Law.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="美股开户">
+    </span>
 
     
       <header class="post-header">
@@ -691,38 +784,42 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/04/03/如果你认为父母的婚姻并不幸福，你会做些什么？/" itemprop="url">
-                  如果你认为父母的婚姻并不幸福，你会做些什么？
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/04/03/如果你认为父母的婚姻并不幸福，你会做些什么？/" itemprop="url">如果你认为父母的婚姻并不幸福，你会做些什么？</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-04-03T22:17:16+08:00" content="2017-04-03">
-              2017-04-03
-            </time>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-03T22:17:16+08:00">
+                2017-04-03
+              </time>
+            
+
+            
+
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/Quora精选/" itemprop="url" rel="index">
                     <span itemprop="name">Quora精选</span>
                   </a>
@@ -730,7 +827,6 @@
 
                 
                 
-
               
             </span>
           
@@ -738,33 +834,29 @@
           
             
               <span class="post-comments-count">
-                &nbsp; | &nbsp;
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
                 <a href="/2017/04/03/如果你认为父母的婚姻并不幸福，你会做些什么？/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/04/03/如果你认为父母的婚姻并不幸福，你会做些什么？/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/04/03/如果你认为父母的婚姻并不幸福，你会做些什么？/" itemprop="commentCount"></span>
                 </a>
               </span>
             
           
 
           
-
-          
-          
-             <span id="/2017/04/03/如果你认为父母的婚姻并不幸福，你会做些什么？/" class="leancloud_visitors" data-flag-title="如果你认为父母的婚姻并不幸福，你会做些什么？">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
           
 
           
+
+          
+
+          
+
         </div>
       </header>
     
-
 
     <div class="post-body" itemprop="articleBody">
 
@@ -774,12 +866,18 @@
       
         
           <p>翻译：Andybroker<br>我的母亲曾深爱着我的父亲，但她会做一些伤害他的事，在随后的日子里她并不清楚这会带给他多深的伤害。</p>
-          <div class="post-more-link text-center">
+          <!--noindex-->
+          <div class="post-button text-center">
             <a class="btn" href="/2017/04/03/如果你认为父母的婚姻并不幸福，你会做些什么？/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
+          <!--/noindex-->
         
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -797,6 +895,8 @@
       
 
       
+
+      
       
         <div class="post-eof"></div>
       
@@ -808,13 +908,23 @@
       
 
   
-  
 
   
   
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/02/08/如果希特勒如此罪大恶极，为什么他周围的人不直接杀了他？/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Andy Law">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7xwch3.com1.z0.glb.clouddn.com/Andy%20Law.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="美股开户">
+    </span>
 
     
       <header class="post-header">
@@ -822,38 +932,42 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/02/08/如果希特勒如此罪大恶极，为什么他周围的人不直接杀了他？/" itemprop="url">
-                  如果希特勒如此罪大恶极，为什么他周围的人不直接杀了他？
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/02/08/如果希特勒如此罪大恶极，为什么他周围的人不直接杀了他？/" itemprop="url">如果希特勒如此罪大恶极，为什么他周围的人不直接杀了他？</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-02-08T11:21:07+08:00" content="2017-02-08">
-              2017-02-08
-            </time>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-08T11:21:07+08:00">
+                2017-02-08
+              </time>
+            
+
+            
+
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/Quora精选/" itemprop="url" rel="index">
                     <span itemprop="name">Quora精选</span>
                   </a>
@@ -861,7 +975,6 @@
 
                 
                 
-
               
             </span>
           
@@ -869,33 +982,29 @@
           
             
               <span class="post-comments-count">
-                &nbsp; | &nbsp;
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
                 <a href="/2017/02/08/如果希特勒如此罪大恶极，为什么他周围的人不直接杀了他？/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/08/如果希特勒如此罪大恶极，为什么他周围的人不直接杀了他？/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/08/如果希特勒如此罪大恶极，为什么他周围的人不直接杀了他？/" itemprop="commentCount"></span>
                 </a>
               </span>
             
           
 
           
-
-          
-          
-             <span id="/2017/02/08/如果希特勒如此罪大恶极，为什么他周围的人不直接杀了他？/" class="leancloud_visitors" data-flag-title="如果希特勒如此罪大恶极，为什么他周围的人不直接杀了他？">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
           
 
           
+
+          
+
+          
+
         </div>
       </header>
     
-
 
     <div class="post-body" itemprop="articleBody">
 
@@ -906,12 +1015,18 @@
         
           <p>翻译：Andybroker<br><img src="http://7xwch3.com1.z0.glb.clouddn.com/20170311-1.png" alt=""><br>所需要的仅仅是一颗可以射穿他脖子的子弹，当然，其他警卫会立刻杀了你，但你难道不愿意杀掉希特勒吗？虽然会有牺牲，却可以成为一名英雄。</p>
 <p>这个最残暴的独裁者到底从哪里获得的权力？是什么让如此多的人成为他的追随者？</p>
-          <div class="post-more-link text-center">
+          <!--noindex-->
+          <div class="post-button text-center">
             <a class="btn" href="/2017/02/08/如果希特勒如此罪大恶极，为什么他周围的人不直接杀了他？/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
+          <!--/noindex-->
         
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -929,6 +1044,8 @@
       
 
       
+
+      
       
         <div class="post-eof"></div>
       
@@ -940,13 +1057,23 @@
       
 
   
-  
 
   
   
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/02/07/你做过的最困难的事是什么/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Andy Law">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7xwch3.com1.z0.glb.clouddn.com/Andy%20Law.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="美股开户">
+    </span>
 
     
       <header class="post-header">
@@ -954,38 +1081,42 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/02/07/你做过的最困难的事是什么/" itemprop="url">
-                  你做过的最艰难的事是什么？
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/02/07/你做过的最困难的事是什么/" itemprop="url">你做过的最艰难的事是什么？</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-02-07T17:21:25+08:00" content="2017-02-07">
-              2017-02-07
-            </time>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-07T17:21:25+08:00">
+                2017-02-07
+              </time>
+            
+
+            
+
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/Quora精选/" itemprop="url" rel="index">
                     <span itemprop="name">Quora精选</span>
                   </a>
@@ -993,7 +1124,6 @@
 
                 
                 
-
               
             </span>
           
@@ -1001,33 +1131,29 @@
           
             
               <span class="post-comments-count">
-                &nbsp; | &nbsp;
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
                 <a href="/2017/02/07/你做过的最困难的事是什么/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/07/你做过的最困难的事是什么/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/07/你做过的最困难的事是什么/" itemprop="commentCount"></span>
                 </a>
               </span>
             
           
 
           
-
-          
-          
-             <span id="/2017/02/07/你做过的最困难的事是什么/" class="leancloud_visitors" data-flag-title="你做过的最艰难的事是什么？">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
           
 
           
+
+          
+
+          
+
         </div>
       </header>
     
-
 
     <div class="post-body" itemprop="articleBody">
 
@@ -1039,12 +1165,18 @@
           <p><strong>翻译：Andybroker</strong></p>
 <p><img src="http://7xwch3.com1.z0.glb.clouddn.com/20170207-1.jpg" alt=""></p>
 <p><strong>不再逃避</strong></p>
-          <div class="post-more-link text-center">
+          <!--noindex-->
+          <div class="post-button text-center">
             <a class="btn" href="/2017/02/07/你做过的最困难的事是什么/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
+          <!--/noindex-->
         
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -1062,6 +1194,8 @@
       
 
       
+
+      
       
         <div class="post-eof"></div>
       
@@ -1073,13 +1207,23 @@
       
 
   
-  
 
   
   
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/02/05/如果趁母鸡不注意把鸡蛋换为鸭蛋，会发生什么？/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Andy Law">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7xwch3.com1.z0.glb.clouddn.com/Andy%20Law.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="美股开户">
+    </span>
 
     
       <header class="post-header">
@@ -1087,38 +1231,42 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/02/05/如果趁母鸡不注意把鸡蛋换为鸭蛋，会发生什么？/" itemprop="url">
-                  如果趁母鸡不注意把鸡蛋换为鸭蛋，会发生什么？
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/02/05/如果趁母鸡不注意把鸡蛋换为鸭蛋，会发生什么？/" itemprop="url">如果趁母鸡不注意把鸡蛋换为鸭蛋，会发生什么？</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-02-05T19:38:20+08:00" content="2017-02-05">
-              2017-02-05
-            </time>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-05T19:38:20+08:00">
+                2017-02-05
+              </time>
+            
+
+            
+
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/Quora精选/" itemprop="url" rel="index">
                     <span itemprop="name">Quora精选</span>
                   </a>
@@ -1126,7 +1274,6 @@
 
                 
                 
-
               
             </span>
           
@@ -1134,33 +1281,29 @@
           
             
               <span class="post-comments-count">
-                &nbsp; | &nbsp;
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
                 <a href="/2017/02/05/如果趁母鸡不注意把鸡蛋换为鸭蛋，会发生什么？/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/05/如果趁母鸡不注意把鸡蛋换为鸭蛋，会发生什么？/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/05/如果趁母鸡不注意把鸡蛋换为鸭蛋，会发生什么？/" itemprop="commentCount"></span>
                 </a>
               </span>
             
           
 
           
-
-          
-          
-             <span id="/2017/02/05/如果趁母鸡不注意把鸡蛋换为鸭蛋，会发生什么？/" class="leancloud_visitors" data-flag-title="如果趁母鸡不注意把鸡蛋换为鸭蛋，会发生什么？">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
           
 
           
+
+          
+
+          
+
         </div>
       </header>
     
-
 
     <div class="post-body" itemprop="articleBody">
 
@@ -1172,12 +1315,18 @@
           <p><strong>翻译：Andybroker</strong></p>
 <p>我代表打小从农场长大的老爹来回答这个问题<br><img src="http://7xwch3.com1.z0.glb.clouddn.com/20170205-01.jpg" alt=""></p>
 <p>老爹是喂矮脚鸡鸡和鸭子长大的，当然农场还有其它的动物和庄稼。矮脚鸡是优秀且负责任的产蛋能手，它们从不轻言放弃，直到小鸡孵化出来为止，即便流产，它们也不会停止努力；鸭子则不同，很快就对它们的产蛋事业失去兴趣，开始四处闲逛，周游列国；为了防止鸭子家族后继无人，老爹的任务就是搜集鸭蛋，然后放到矮脚鸡的窝里。</p>
-          <div class="post-more-link text-center">
+          <!--noindex-->
+          <div class="post-button text-center">
             <a class="btn" href="/2017/02/05/如果趁母鸡不注意把鸡蛋换为鸭蛋，会发生什么？/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
+          <!--/noindex-->
         
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -1195,6 +1344,8 @@
       
 
       
+
+      
       
         <div class="post-eof"></div>
       
@@ -1206,13 +1357,23 @@
       
 
   
-  
 
   
   
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/02/05/肉牛产业深度研究/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Andy Law">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7xwch3.com1.z0.glb.clouddn.com/Andy%20Law.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="美股开户">
+    </span>
 
     
       <header class="post-header">
@@ -1220,38 +1381,42 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2017/02/05/肉牛产业深度研究/" itemprop="url">
-                  舌尖上的牛肉：一个数万亿的市场，中国肉牛行业大起底
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2017/02/05/肉牛产业深度研究/" itemprop="url">舌尖上的牛肉：一个数万亿的市场，中国肉牛行业大起底</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-02-05T00:07:49+08:00" content="2017-02-05">
-              2017-02-05
-            </time>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-05T00:07:49+08:00">
+                2017-02-05
+              </time>
+            
+
+            
+
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/肉牛养殖/" itemprop="url" rel="index">
                     <span itemprop="name">肉牛养殖</span>
                   </a>
@@ -1259,7 +1424,6 @@
 
                 
                 
-
               
             </span>
           
@@ -1267,33 +1431,29 @@
           
             
               <span class="post-comments-count">
-                &nbsp; | &nbsp;
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
                 <a href="/2017/02/05/肉牛产业深度研究/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/05/肉牛产业深度研究/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/05/肉牛产业深度研究/" itemprop="commentCount"></span>
                 </a>
               </span>
             
           
 
           
-
-          
-          
-             <span id="/2017/02/05/肉牛产业深度研究/" class="leancloud_visitors" data-flag-title="舌尖上的牛肉：一个数万亿的市场，中国肉牛行业大起底">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
           
 
           
+
+          
+
+          
+
         </div>
       </header>
     
-
 
     <div class="post-body" itemprop="articleBody">
 
@@ -1304,12 +1464,18 @@
         
           <p>作者：马也</p>
 <p>随着天气再一次开启降温模式，一锅热气腾腾的牛肉火锅，或者一块散发着浓浓肉香的煎牛扒，足以抚慰很多中国人的舌尖，还有胃。<br><img src="http://7xwch3.com1.z0.glb.clouddn.com/20170205-1.jpg" alt=""><br>
-          <div class="post-more-link text-center">
+          <!--noindex-->
+          <div class="post-button text-center">
             <a class="btn" href="/2017/02/05/肉牛产业深度研究/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
+          <!--/noindex-->
         
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -1327,6 +1493,8 @@
       
 
       
+
+      
       
         <div class="post-eof"></div>
       
@@ -1338,13 +1506,23 @@
       
 
   
-  
 
   
   
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/11/10/卡尔伊坎/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Andy Law">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7xwch3.com1.z0.glb.clouddn.com/Andy%20Law.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="美股开户">
+    </span>
 
     
       <header class="post-header">
@@ -1352,38 +1530,42 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2016/11/10/卡尔伊坎/" itemprop="url">
-                  卡尔•伊坎
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2016/11/10/卡尔伊坎/" itemprop="url">卡尔•伊坎</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-11-10T22:49:09+08:00" content="2016-11-10">
-              2016-11-10
-            </time>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-11-10T22:49:09+08:00">
+                2016-11-10
+              </time>
+            
+
+            
+
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/美股/" itemprop="url" rel="index">
                     <span itemprop="name">美股</span>
                   </a>
@@ -1391,7 +1573,6 @@
 
                 
                 
-
               
             </span>
           
@@ -1399,33 +1580,29 @@
           
             
               <span class="post-comments-count">
-                &nbsp; | &nbsp;
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
                 <a href="/2016/11/10/卡尔伊坎/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/10/卡尔伊坎/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/10/卡尔伊坎/" itemprop="commentCount"></span>
                 </a>
               </span>
             
           
 
           
-
-          
-          
-             <span id="/2016/11/10/卡尔伊坎/" class="leancloud_visitors" data-flag-title="卡尔•伊坎">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
           
 
           
+
+          
+
+          
+
         </div>
       </header>
     
-
 
     <div class="post-body" itemprop="articleBody">
 
@@ -1441,11 +1618,13 @@
 <p>直到今天，这位80岁的老人仍不知疲倦地站寻找着自己的目标，155亿美元的身家，不需要他人的帮助，也不用征求谁的同意，这让他变得十分危险，就像一只秃鹰盘旋在高空，触目所及都是他的猎物。“我是伊坎……”，几乎所有公司的CEO都害怕接到这样的电话，因为这很可能意味着“麻烦”的开始…</p>
 <p><img src="http://7xwch3.com1.z0.glb.clouddn.com/201611101.png" alt=""></p>
 <p><strong>▌真正的华尔街之狼</strong><br>
-          <div class="post-more-link text-center">
+          <!--noindex-->
+          <div class="post-button text-center">
             <a class="btn" href="/2016/11/10/卡尔伊坎/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1458,7 +1637,13 @@
       
     </div>
 
+    <div>
+      
+    </div>
+
     <footer class="post-footer">
+      
+
       
 
       
@@ -1475,13 +1660,23 @@
       
 
   
-  
 
   
   
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/10/02/美股开户6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Andy Law">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://7xwch3.com1.z0.glb.clouddn.com/Andy%20Law.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="美股开户">
+    </span>
 
     
       <header class="post-header">
@@ -1489,38 +1684,42 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-            
-            
-              
                 
-                <a class="post-title-link" href="/2016/10/02/美股开户6/" itemprop="url">
-                  怎样才能成为一个牛人？
-                </a>
-              
-            
-          </h1>
+                <a class="post-title-link" href="/2016/10/02/美股开户6/" itemprop="url">怎样才能成为一个牛人？</a></h1>
         
 
         <div class="post-meta">
           <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-10-02T16:09:03+08:00" content="2016-10-02">
-              2016-10-02
-            </time>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-10-02T16:09:03+08:00">
+                2016-10-02
+              </time>
+            
+
+            
+
+            
           </span>
 
           
             <span class="post-category" >
-              &nbsp; | &nbsp;
+            
+              <span class="post-meta-divider">|</span>
+            
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/Quora精选/" itemprop="url" rel="index">
                     <span itemprop="name">Quora精选</span>
                   </a>
@@ -1528,7 +1727,6 @@
 
                 
                 
-
               
             </span>
           
@@ -1536,33 +1734,29 @@
           
             
               <span class="post-comments-count">
-                &nbsp; | &nbsp;
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
                 <a href="/2016/10/02/美股开户6/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/02/美股开户6/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/02/美股开户6/" itemprop="commentCount"></span>
                 </a>
               </span>
             
           
 
           
-
-          
-          
-             <span id="/2016/10/02/美股开户6/" class="leancloud_visitors" data-flag-title="怎样才能成为一个牛人？">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
           
 
           
+
+          
+
+          
+
         </div>
       </header>
     
-
 
     <div class="post-body" itemprop="articleBody">
 
@@ -1575,11 +1769,13 @@
 <p>那些人真正应当问的问题是“什么样的废话以及说多少废话可以让我变为富翁？”</p>
 <p>到目前为止，我已经实现了三次，不过没有捷径。除非你发现了一种神奇的方式可以帮你赢得下次的大乐透彩票，否则没有快速致富的方略。</p>
 <p>在这个话题下，的确有一些苦难经历者。但大部分答主都是遵循——某人有多么的幸运的主线——当我年轻、贫穷时或者以局外人的角度看可能会认同这些观点，但对于已经经历了几次大起大落的我，现在有更好的观点，毕竟我曾经几次陷入极度贫困状态。<br>
-          <div class="post-more-link text-center">
+          <!--noindex-->
+          <div class="post-button text-center">
             <a class="btn" href="/2016/10/02/美股开户6/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1592,7 +1788,13 @@
       
     </div>
 
+    <div>
+      
+    </div>
+
     <footer class="post-footer">
+      
+
       
 
       
@@ -1640,25 +1842,32 @@
 
       
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://7xwch3.com1.z0.glb.clouddn.com/Andy%20Law.jpg"
                alt="Andy Law" />
           <p class="site-author-name" itemprop="name">Andy Law</p>
-          <p class="site-description motion-element" itemprop="description">投资美股|价值投资|美股开户</p>
+           
+              <p class="site-description motion-element" itemprop="description">投资美股|价值投资|美股开户</p>
+          
         </div>
         <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/archives">
-              <span class="site-state-item-count">20</span>
-              <span class="site-state-item-name">日志</span>
-            </a>
-          </div>
 
           
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">20</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
             <div class="site-state-item site-state-categories">
-              <a href="/categories">
+              <a href="/categories/index.html">
                 <span class="site-state-item-count">10</span>
                 <span class="site-state-item-name">分类</span>
               </a>
@@ -1666,8 +1875,10 @@
           
 
           
+            
+            
             <div class="site-state-item site-state-tags">
-              <a href="/tags">
+              <a href="/tags/index.html">
                 <span class="site-state-item-count">41</span>
                 <span class="site-state-item-name">标签</span>
               </a>
@@ -1677,19 +1888,15 @@
         </nav>
 
         
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
 
         <div class="links-of-author motion-element">
-          
-            
-              <span class="links-of-author-item">
-                <a href="http://weibo.com/1625020561/profile?topnav=1&wvr=6&is_all=1" target="_blank" title="微博">
-                  
-                    <i class="fa fa-fw fa-weibo"></i>
-                  
-                  微博
-                </a>
-              </span>
-            
           
         </div>
 
@@ -1721,7 +1928,12 @@
           </div>
         
 
+        
+
+
       </section>
+
+      
 
       
 
@@ -1743,11 +1955,11 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Andy Law</span>
-  <a href="http://www.miitbeian.gov.cn/">粤ICP备14057991号</a> 
 </div>
 
+
 <div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
@@ -1757,31 +1969,40 @@
   </a>
 </div>
 
+
         
-
 <div class="busuanzi-count">
-
   <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
   
-    <span class="site-uv">本站访客数<span class="busuanzi-value" id="busuanzi_value_site_uv"></span>人次</span>
+    <span class="site-uv">
+      本站访客数
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      人次
+    </span>
   
 
   
-    <span class="site-pv">本站总访问量<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>次</span>
-  
+    <span class="site-pv">
+      本站总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      次
+    </span>
   
 </div>
-
 
 
         
       </div>
     </footer>
 
-    <div class="back-to-top">
-      <i class="fa fa-arrow-up"></i>
-    </div>
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
   </div>
 
   
@@ -1801,6 +2022,15 @@
 
 
   
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1826,21 +2056,25 @@
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
 
 
 
   
-  
-
   
 
   
+    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+  
+
+  
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
 
 
 
@@ -1865,6 +2099,7 @@
 
   
     
+    
     <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
     <script src="/js/src/hook-duoshuo.js"></script>
   
@@ -1875,253 +2110,47 @@
 
 
 
+
+
+
+
+
+
+
+
+
   
+
+
+
+
+
   
-  <script type="text/javascript">
-    // Popup Window;
-    var isfetched = false;
-    // Search DB path;
-    var search_path = "search.xml";
-    if (search_path.length == 0) {
-       search_path = "search.xml";
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
     }
-    var path = "/" + search_path;
-    // monitor main search box;
-
-    function proceedsearch() {
-      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
-      $('.popup').toggle();
-
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
     }
-    // search function;
-    var searchFunc = function(path, search_id, content_id) {
-    'use strict';
-    $.ajax({
-        url: path,
-        dataType: "xml",
-        async: true,
-        success: function( xmlResponse ) {
-            // get the contents from search data
-            isfetched = true;
-            $('.popup').detach().appendTo('.header-inner');
-            var datas = $( "entry", xmlResponse ).map(function() {
-                return {
-                    title: $( "title", this ).text(),
-                    content: $("content",this).text(),
-                    url: $( "url" , this).text()
-                };
-            }).get();
-            var $input = document.getElementById(search_id);
-            var $resultContent = document.getElementById(content_id);
-            $input.addEventListener('input', function(){
-                var matchcounts = 0;
-                var str='<ul class=\"search-result-list\">';
-                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
-                $resultContent.innerHTML = "";
-                if (this.value.trim().length > 1) {
-                // perform local searching
-                datas.forEach(function(data) {
-                    var isMatch = true;
-                    var content_index = [];
-                    var data_title = data.title.trim().toLowerCase();
-                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
-                    var data_url = data.url;
-                    var index_title = -1;
-                    var index_content = -1;
-                    var first_occur = -1;
-                    // only match artiles with not empty titles and contents
-                    if(data_title != '' && data_content != '') {
-                        keywords.forEach(function(keyword, i) {
-                            index_title = data_title.indexOf(keyword);
-                            index_content = data_content.indexOf(keyword);
-                            if( index_title < 0 && index_content < 0 ){
-                                isMatch = false;
-                            } else {
-                                if (index_content < 0) {
-                                    index_content = 0;
-                                }
-                                if (i == 0) {
-                                    first_occur = index_content;
-                                }
-                            }
-                        });
-                    }
-                    // show search results
-                    if (isMatch) {
-                        matchcounts += 1;
-                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
-                        var content = data.content.trim().replace(/<[^>]+>/g,"");
-                        if (first_occur >= 0) {
-                            // cut out 100 characters
-                            var start = first_occur - 20;
-                            var end = first_occur + 80;
-                            if(start < 0){
-                                start = 0;
-                            }
-                            if(start == 0){
-                                end = 50;
-                            }
-                            if(end > content.length){
-                                end = content.length;
-                            }
-                            var match_content = content.substring(start, end);
-                            // highlight all keywords
-                            keywords.forEach(function(keyword){
-                                var regS = new RegExp(keyword, "gi");
-                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
-                            });
-
-                            str += "<p class=\"search-result\">" + match_content +"...</p>"
-                        }
-                        str += "</li>";
-                    }
-                })};
-                str += "</ul>";
-                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
-                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
-                $resultContent.innerHTML = str;
-            });
-            proceedsearch();
-        }
-    });}
-
-    // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
-      e.stopPropagation();
-      if (isfetched == false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-
-    });
-
-    $('.popup-btn-close').click(function(e){
-      $('.popup').hide();
-      $(".popoverlay").remove();
-      $('body').css('overflow', '');
-    });
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-  </script>
-
-
-  
-
-  
-
-  
-  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
-  <script>AV.initialize("uHIfW6HT0UCc7k5Uyemx1gD3-gzGzoHsz", "8gsnLCStAtho7nF6AdL2UY86");</script>
-  <script>
-    function showTime(Counter) {
-      var query = new AV.Query(Counter);
-      var entries = [];
-      var $visitors = $(".leancloud_visitors");
-
-      $visitors.each(function () {
-        entries.push( $(this).attr("id").trim() );
-      });
-
-      query.containedIn('url', entries);
-      query.find()
-        .done(function (results) {
-          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
-
-          if (results.length === 0) {
-            $visitors.find(COUNT_CONTAINER_REF).text(0);
-            return;
-          }
-
-          for (var i = 0; i < results.length; i++) {
-            var item = results[i];
-            var url = item.get('url');
-            var time = item.get('time');
-            var element = document.getElementById(url);
-
-            $(element).find(COUNT_CONTAINER_REF).text(time);
-          }
-          for(var i = 0; i < entries.length; i++) {
-            var url = entries[i];
-            var element = document.getElementById(url);
-            var countSpan = $(element).find(COUNT_CONTAINER_REF);
-            if( countSpan.text() == '') {
-              countSpan.text(0);
-            }
-          }
-        })
-        .fail(function (object, error) {
-          console.log("Error: " + error.code + " " + error.message);
-        });
-    }
-
-    function addCount(Counter) {
-      var $visitors = $(".leancloud_visitors");
-      var url = $visitors.attr('id').trim();
-      var title = $visitors.attr('data-flag-title').trim();
-      var query = new AV.Query(Counter);
-
-      query.equalTo("url", url);
-      query.find({
-        success: function(results) {
-          if (results.length > 0) {
-            var counter = results[0];
-            counter.fetchWhenSave(true);
-            counter.increment("time");
-            counter.save(null, {
-              success: function(counter) {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
-              },
-              error: function(counter, error) {
-                console.log('Failed to save Visitor num, with error message: ' + error.message);
-              }
-            });
-          } else {
-            var newcounter = new Counter();
-            /* Set ACL */
-            var acl = new AV.ACL();
-            acl.setPublicReadAccess(true);
-            acl.setPublicWriteAccess(true);
-            newcounter.setACL(acl);
-            /* End Set ACL */
-            newcounter.set("title", title);
-            newcounter.set("url", url);
-            newcounter.set("time", 1);
-            newcounter.save(null, {
-              success: function(newcounter) {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
-              },
-              error: function(newcounter, error) {
-                console.log('Failed to create');
-              }
-            });
-          }
-        },
-        error: function(error) {
-          console.log('Error:' + error.code + " " + error.message);
-        }
-      });
-    }
-
-    $(function() {
-      var Counter = AV.Object.extend("Counter");
-      if ($('.leancloud_visitors').length == 1) {
-        addCount(Counter);
-      } else if ($('.post-title-link').length > 1) {
-        showTime(Counter);
-      }
-    });
-  </script>
-
-
-
-  
-<script type="text/javascript" async src="//push.zhanzhang.baidu.com/push.js">
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
 </script>
 
+
+  
+
+  
+
+  
+
+  
 
 </body>
 </html>
